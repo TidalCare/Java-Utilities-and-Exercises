@@ -65,16 +65,4 @@ public class Patient {
       this.gender = gender;
    }
 
-   //--------------------------------------------
-   // Return String Representation of Patient
-   //--------------------------------------------
-
-   @Override
-   public String toString() {
-      return "Patient [ID=" + patientId +
-         ", Name=" + firstName + " " + lastName +
-         ", DOB=" + dateOfBirth +
-         ", Gender=" + gender + "]";
-   }
-
 }

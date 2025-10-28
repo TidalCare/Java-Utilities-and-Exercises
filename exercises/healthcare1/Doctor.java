@@ -38,10 +38,4 @@ public class Doctor {
       return specialty;
    }
 
-   @Override
-   public String toString() {
-      return "Doctor [ID=" + doctorId +
-         ", Name=" + firstName + " " + lastName +
-         ", Specialty=" + specialty + "]";
-   }
 }
